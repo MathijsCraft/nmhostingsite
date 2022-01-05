@@ -25,6 +25,7 @@
         <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/extra.css" rel="stylesheet" type="text/css" />
+        <link href="css/urlParam.css" rel="stylesheet" type="text/css" />
 
         <!-- color scheme -->
         <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
@@ -100,6 +101,13 @@
             </header>
             <!-- header close -->
             <!-- content begin -->
+            <div class="coupon-popup">
+                <div class="close-btn">&times;</div>
+                <img src="/images/coupon.svg" alt="Coupon">
+                <h1>Thank You!</h1>
+                <p>Use the following code at checkout and get <span id="coupon-popup-percentage">25%</span> off of your order!</p>
+                <input id="coupon-popup-coupon" type="text" value="XXX" disabled>
+              </div>
             <div class="no-bottom no-top" id="content">
                 <div id="top"></div>
 
@@ -487,6 +495,7 @@
         <script src="js/jquery.countdown.js"></script>
         <script src="js/designesia.js"></script>
         <script src="js/randomimage.js"></script>
+        <script src="js/urlParam.js"></script>
 
 
 
